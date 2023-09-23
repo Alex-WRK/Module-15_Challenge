@@ -3,8 +3,40 @@ body {
   margin: 0;
 }
 
+/* CSS for legend items and color squares */
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color-square {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Additional legend CSS (if needed) */
+#legend {
+  position: bottomright;
+  background-color: rgba(134, 8, 8, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(81, 53, 156, 0.2); /* Add a subtle shadow */
+  max-width: 200px; /* Adjust the maximum width as needed */
+}
+
+
 #map,
 body,
 html {
   height: 100%;
 }
+
+
+
+
+
