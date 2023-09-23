@@ -1,4 +1,4 @@
-# Data Analysis Project: Visualizing Earthquake Data with Leaflet and D3.js
+# Data Analysis Project: leaflet-challenge Visualizing Earthquake Data with Leaflet and D3.js
 ### Introduction
 In this data analysis project, I aimed to create an interactive web map to visualize earthquake data from the United States Geological Survey (USGS) and tectonic plate boundaries. To accomplish this, I utilized several web technologies, including Leaflet, D3.js, and GeoJSON, to create an informative and visually appealing map.
 
