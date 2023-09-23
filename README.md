@@ -46,3 +46,5 @@ The result of this project is an engaging web map that presents earthquake data 
 ###### Tectonic Plate Boundaries (fraxen/tectonicplates) [https://github.com/fraxen/tectonicplates]
 ###### Website: "OpenStreetMap" Links to an external site [https://www.openstreetmap.org/]
 ###### Esri World Imagery: Links to an external site [https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer]
+
+###### All codes used are from week 15 classes complemented by additional insights and best practices I acquired through independent research conducted online, troubleshooting was done with ChatGPT
