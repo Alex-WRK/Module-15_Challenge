@@ -7,7 +7,7 @@ Before diving into the project details, let's briefly review the tools and techn
 
 ##### Leaflet: This JavaScript library is perfect for interactive map creation. It allowed me to build and customize the map effortlessly.
 
-##### D3.js: D3.js is a versatile JavaScript library for data visualization. I leveraged it to manipulate the Document Object Model (DOM) and visualize data on the web.
+##### D3.js: D3.js is a versatile JavaScript library for data visualization. I leveraged it to visualize data on the web.
 
 ##### GeoJSON: GeoJSON is a geospatial data format that makes it easy to represent geographical features and their properties.
 
@@ -37,3 +37,12 @@ I created a legend that explained the color-coding used to represent earthquake 
 
 ### Project Outcomes
 The result of this project is an engaging web map that presents earthquake data and tectonic plate boundaries interactively. Users can customize their map by selecting different base maps and toggling earthquake and tectonic plate data on and off. The accompanying legend provides clear information about the meaning behind the depth color codes.
+
+##### References
+###### Dataset created by the United States Geological Survey Links to an external site [https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php]
+###### Official Leaflet Website: Links to an external site [https://leafletjs.com/]
+###### Official D3.js Website: Links to an external site [https://d3js.org/]
+###### USGS Earthquake API: Links to an external site [https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php]
+###### Tectonic Plate Boundaries (fraxen/tectonicplates) [https://github.com/fraxen/tectonicplates]
+###### Website: "OpenStreetMap" Links to an external site [https://www.openstreetmap.org/]
+###### Esri World Imagery: Links to an external site [https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer]
