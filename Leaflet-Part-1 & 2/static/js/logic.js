@@ -63,15 +63,15 @@ d3.json(earthquakeDataUrl)
                 fillOpacity: 0.7,
             };
 
+            // Create a popup content with exact location
+            const popupContent = `Magnitude: ${mag}<br>Depth: ${depth} km<br>Location: Lat ${lat.toFixed(4)}, Lon ${lon.toFixed(4)}`;
+
             const marker = L.circleMarker([lat, lon], markerOptions)
-                .bindPopup(`Magnitude: ${mag}<br>Depth: ${depth} km`);
-
-            marker.addTo(earthquakes);
+                .bindPopup(popupContent) // Bind the popup to the marker
+                .addTo(earthquakes);
         });
-
-        // Call the updateLegend function to populate the legend
-        updateLegend();
     });
+
 
 // Create an overlay for tectonic plates
 const tectonicPlatesUrl = 'https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json';
